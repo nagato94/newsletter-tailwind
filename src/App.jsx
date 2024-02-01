@@ -1,9 +1,13 @@
-import Header from "./components/Header/Header"
+import ArticlesList from "./components/ArticlesList/ArticlesList";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <Header/>
-  )
-}
+    <>
+      <Header />
+      <ArticlesList />
+    </>
+  );
+};
 
-export default App
+export default App;
