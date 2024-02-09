@@ -1,3 +1,4 @@
+import Input from "../Input/Input";
 const Form = ({ onSubmit }) => {
   const safeSubmit = (event) => {
     event.preventDefault();
@@ -12,18 +13,10 @@ const Form = ({ onSubmit }) => {
       className="max-w-md mx-auto p-4 bg-white rounded shadow-md"
     >
       <div className="mb-4">
-        <input
-          type="text"
-          placeholder="Insira seu nome ..."
-          className="w-full px-3 py-2 border rounded focus:outline-none focus:border-alura-100"
-        />
+        <Input type="text" required placeholder="Insira seu nome ..." />
       </div>
       <div className="mb-4">
-        <input
-          type="text"
-          placeholder="Insira seu email ..."
-          className="w-full px-3 py-2 border rounded focus:outline-none focus:border-alura-100"
-        />
+        <Input type="text" required placeholder="Insira seu email ..." />
       </div>
       <button
         type="submit"
