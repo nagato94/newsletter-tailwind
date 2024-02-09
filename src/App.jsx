@@ -6,11 +6,11 @@ const App = () => {
   const [user, setUser] = useState();
   const hasUser = Boolean(user);
   return (
-    <>
+    <div className="h-screen">
       <Header user={user} />
       {hasUser && <ArticlesList />}
       {hasUser || <Form onSubmit={setUser} />}
-    </>
+    </div>
   );
 };
 
