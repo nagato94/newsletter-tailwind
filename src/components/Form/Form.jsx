@@ -20,7 +20,7 @@ const Form = ({ onSubmit }) => {
       </div>
       <button
         type="submit"
-        className="w-full px-4 py-2 text-white bg-alura-100 rounded-full hover:bg-alura-200  hover:ease-in-out transition-all duration-500 hover:shadow-md hover:shadow-gray-500 dark:bg-dark-100 dark:hover:bg-alura-200 dark:hover:shadow-gray-500 dark:hover:shadow-md dark:text-gray-200 focus:outline-none focus:shadow-md focus:shadow-gray-500"
+        className="btn"
       >
         Seguir
       </button>
